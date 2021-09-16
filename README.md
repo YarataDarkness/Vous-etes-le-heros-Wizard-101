@@ -1,5 +1,5 @@
 # wizard-101-projet
-![Wizard-101](assets/BPXTPdU - Imgur.png)
+![Wizard-101](assets/BPXTPdU.png)
  
  [Développement web - Projet vous êtes le héros](https://smnarnold.com/projets/vous-etes-le-heros)
 
