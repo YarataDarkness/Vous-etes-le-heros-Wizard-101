@@ -7,6 +7,8 @@
 
  ** Inspiration: ** Inspirer d'une histoire depressive que j'ai fait quand j'était petite.
 
- ** Palettes de couleurs: ** 
+ ** Palettes de couleurs: ** [coolors.co](https://coolors.co/ffffff-000000-5aff15-ff1654-69626d)
+
+ 
 
 
