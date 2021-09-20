@@ -11,7 +11,7 @@
 
 >**Diagrammme**
 
-![Diagramme](assets/wizard101-diagram.png)
+![Diagramme](assets/diagramme/wizard101-diagram.png)
 
 
 
