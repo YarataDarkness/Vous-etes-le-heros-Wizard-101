@@ -52,6 +52,7 @@ let chapter9 = {
      img: "chapter9.png"
 };
 
+let chapitre = chaptersObj.length;
 
 function goToChapter(chapterName){
 
