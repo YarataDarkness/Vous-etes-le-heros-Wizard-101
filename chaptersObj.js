@@ -55,8 +55,8 @@ const chaptersObj = {
 };
 
 
-let chapitre = chaptersObj.length;
+let chapitre = chaptersObj;
 
 function goToChapter(chapterName){
-    console.log(`${chapitre.length}`);
+    console.log(`${chapitre}`);
 };
