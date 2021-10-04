@@ -3,7 +3,10 @@ const chaptersObj = {
         subtitle: "awakening",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter1.png",
-        options: []
+        options: [{
+          text: "Wake Up",
+          action: "Wake-up"
+        }]
    },
    
    chapter2: {
