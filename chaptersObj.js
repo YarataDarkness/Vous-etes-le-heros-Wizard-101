@@ -7,8 +7,9 @@ const chaptersObj = {
           text: "Wake Up",
           action:  'goTochapter("funny_whole_hole")'
         },
-          text: "Sleep more",
+          {text: "Sleep more",
           action:  "bruh"
+          }
      ]
    },
    
