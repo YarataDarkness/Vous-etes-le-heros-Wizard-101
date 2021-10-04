@@ -3,63 +3,63 @@ const chaptersObj = {
         subtitle: "awakening",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter1.png",
-        option: 
+        options: 
    },
    
    chapter2: {
         subtitle: "funny_whole_hole",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter2.png",
-        option: 
+        options: 
    },
    
    chapter3: {
         subtitle: "important_stuff",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter3.png",
-        option: 
+        options: 
    },
    
    chapter4: {
         subtitle: "im_stuffed!",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter4.png",
-        option: 
+        options: 
    },
    
    chapter5: {
         subtitle: "explo?",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter5.png",
-        option: 
+        options: 
    },
    
    chapter6: {
         subtitle: "sion?",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter6.png",
-        option: 
+        options: 
    },
    
    chapter7: {
         subtitle: "choose_your_hats",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter7.png",
-        option: 
+        options: 
    },
    
    chapter8: {
         subtitle: "awwwweeeeh??",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter8.png",
-        option: 
+        options: 
    },
    
    chapter9: {
         subtitle: "what_you_really_were",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         img: "chapter9.png",
-        option: 
+        options: 
    },
 };
 
