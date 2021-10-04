@@ -6,7 +6,10 @@ const chaptersObj = {
         options: [{
           text: "Wake Up",
           action:  'goTochapter("funny_whole_hole")'
-        }]
+        },
+          text: "Sleep more",
+          action:  "bruh"
+     ]
    },
    
    chapter2: {
