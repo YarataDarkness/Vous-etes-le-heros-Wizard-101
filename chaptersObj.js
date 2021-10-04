@@ -5,7 +5,7 @@ const chaptersObj = {
         img: "chapter1.png",
         options: [{
           text: "Wake Up",
-          action: "Wake-up"
+          action:  'goTochapter("funny_whole_hole")'
         }]
    },
    
