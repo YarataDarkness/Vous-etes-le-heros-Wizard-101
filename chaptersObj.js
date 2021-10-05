@@ -1,3 +1,22 @@
+
+const ShowTitre = document.querySelector('.title');
+
+ShowTitre.innerHTML = "WIZARD 101";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const chaptersObj = {
 
      chapter0: {
