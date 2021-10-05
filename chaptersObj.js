@@ -149,16 +149,16 @@ const chaptersObj = {
         img: "chapter9.png",
         options: [
              {
-               text: "";
-               action: ;
+               text: "Ignore the...hug...cause that evil?"
+
              },
              {
-               text: ;
-               action: ;
+               text: "Hug"
+
              },
              {
-               text: ;
-               action: ;
+               text: "kill",
+               action: 'goTochapter("start")'
              }
         ]
    },
