@@ -7,6 +7,10 @@ const ShowSummary = document.querySelector('.summary');
 
 ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
 
+const ShowOptions = document.querySelector('.options');
+
+ShowOptions.innerHTML = "Begin!";
+
 
 
 
