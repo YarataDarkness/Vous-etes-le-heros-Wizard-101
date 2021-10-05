@@ -9,7 +9,7 @@ ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shen
 
 const ShowOptions = document.querySelector('div .options');
 
-ShowOptions.innerHTML = "Begin!";
+ShowOptions.innerHTML = "<button>Begin!</button>";
 
 
 
