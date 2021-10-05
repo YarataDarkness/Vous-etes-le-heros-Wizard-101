@@ -22,11 +22,11 @@ body {
   height: auto;
 }
 
-h1 {
+.title {
   color: #ff1654;
 }
 
-p {
+.summary {
   color: #ff1654;
 }
 
