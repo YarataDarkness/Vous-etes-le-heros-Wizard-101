@@ -2,7 +2,7 @@ const chaptersObj = {
 
      chapter0: {
           subtitle: "start",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          text: "You're a wizard and today is your first schoolday! Shenaningans better not happen!",
           img: "BPXTPdU.png",
           options: [
                {
@@ -14,7 +14,7 @@ const chaptersObj = {
        
      chapter1: {
         subtitle: "awakening",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "WAKE UP! We don't want to be late for school now do we?",
         img: "chapter1.png",
         options: [
              {
@@ -29,7 +29,7 @@ const chaptersObj = {
    
    chapter2: {
         subtitle: "funny_whole_hole",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "Hey look! There a funny looking hole...of void? Who knows!",
         img: "chapter2.png",
         options: [
              {
@@ -49,7 +49,7 @@ const chaptersObj = {
    
    chapter3: {
         subtitle: "important_stuff",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "Don't forget to bring your awesome totally not weird demonic red bag!",
         img: "chapter3.png",
         options: [
              {
@@ -65,7 +65,7 @@ const chaptersObj = {
    
    chapter4: {
         subtitle: "im_stuffed!",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "Alright! No we can go...outside....and there this...delicious looking cake...with funny looking...nevermind....We sould leave, right?",
         img: "chapter4.png",
         options: [
           {
@@ -81,11 +81,11 @@ const chaptersObj = {
    
    chapter5: {
         subtitle: "explo?",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "HU...Did yar hear that? I think it was a BIG explosion...",
         img: "chapter5.png",
         options: [
              {
-               text: "Turn around to see the pretty flames!!",
+               text: "Turn around to see the pretty flames then!!",
                action: 'goTochapter("start")'
              },
              {
@@ -97,7 +97,7 @@ const chaptersObj = {
    
    chapter6: {
         subtitle: "sion?",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "Oh my! It your rival! Looking at you like you were supposed to be dead the whole time! What a creep! A weirdo! An absolute waste of air!",
         img: "chapter6.png",
         options: [
              {
@@ -109,7 +109,7 @@ const chaptersObj = {
    
    chapter7: {
         subtitle: "choose_your_hats",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "OH BOY! and girl! Since this is your first day in this official wizard school(very real!) you gotta pick your element hat!",
         img: "chapter7.png",
         options: [
              {
@@ -133,7 +133,7 @@ const chaptersObj = {
    
    chapter8: {
         subtitle: "awwwweeeeh??",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "Wow...heum...that....hum...well your rival is looking at you...blushing?",
         img: "chapter8.png",
         options: [
              {
@@ -149,7 +149,7 @@ const chaptersObj = {
         img: "chapter9.png",
         options: [
              {
-               text: "Ignore the...hug...cause that evil?"
+               text: "Ignore the...hug"
 
              },
              {
@@ -158,7 +158,6 @@ const chaptersObj = {
              },
              {
                text: "kill",
-               action: 'goTochapter("start")'
              }
         ]
    },
