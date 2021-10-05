@@ -3,7 +3,9 @@ const ShowTitre = document.querySelector('.title');
 
 ShowTitre.innerHTML = "WIZARD 101";
 
+const ShowSummary = document.querySelector('.summary');
 
+ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
 
 
 
