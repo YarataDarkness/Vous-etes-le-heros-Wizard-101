@@ -19,8 +19,7 @@ const chaptersObj = {
           action:  'goTochapter("funny_whole_hole")'
         },
           {text: "Sleep more",
-          action:  "The narrator, me, is...unbelivably disapointed...I knew I should have just become a dry-paint watcher",
-                    'goTochapter("funny_whole_hole")'
+          action: 'goTochapter("funny_whole_hole")'
           }
      ]
    },
