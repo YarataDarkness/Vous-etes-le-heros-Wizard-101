@@ -1,17 +1,4 @@
 
-const ShowTitre = document.querySelector('.title');
-
-ShowTitre.innerHTML = "WIZARD 101";
-
-const ShowSummary = document.querySelector('.summary');
-
-ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
-
-const ShowOptions = document.querySelector('div .options');
-
-ShowOptions.innerHTML = "<button>Begin!</button>";
-
-
 const chaptersObj = {
 
      chapter0: {
@@ -181,5 +168,18 @@ const chaptersObj = {
 let chapitre = chaptersObj;
 
 function goToChapter(chapterName){
+
+const ShowTitre = document.querySelector('.title');
+
+ShowTitre.innerHTML = "WIZARD 101";
+
+const ShowSummary = document.querySelector('.summary');
+
+ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
+
+const ShowOptions = document.querySelector('div .options');
+
+ShowOptions.innerHTML = "<button>Begin!</button>";
+
     console.log(`${chapitre}`);
 };
