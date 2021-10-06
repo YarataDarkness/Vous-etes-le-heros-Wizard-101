@@ -181,5 +181,5 @@ const ShowOptions = document.querySelector('div .options');
 
 ShowOptions.innerHTML = "<button>Begin!</button>";
 
-    console.log(`${chapitre}`);
+    console.log(chapitre);
 };
