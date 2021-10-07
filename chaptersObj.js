@@ -165,7 +165,7 @@ const chaptersObj = {
 };
 
 
-let chapitre = chaptersObj.chapter1;
+let chapitre = chaptersObj;
 
 function goToChapter(chapterName){
 
@@ -175,7 +175,7 @@ ShowTitre.innerHTML = "WIZARD 101";
 
 const ShowSummary = document.querySelector('.summary');
 
-ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
+ShowSummary.innerHTML = chapter.subtitle;
 
 const ShowOptions = document.querySelector('div .options');
 
