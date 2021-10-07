@@ -175,7 +175,7 @@ ShowTitre.innerHTML = "WIZARD 101";
 
 const ShowSummary = document.querySelector('.summary');
 
-ShowSummary.innerHTML = subtitle;
+ShowSummary.innerHTML = "WIZARD 101";
 
 const ShowOptions = document.querySelector('div .options');
 
