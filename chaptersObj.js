@@ -175,11 +175,12 @@ ShowTitre.innerHTML = "WIZARD 101";
 
 const ShowSummary = document.querySelector('.summary');
 
-ShowSummary.innerHTML = chapitre.subtitle;
+ShowSummary.innerHTML = "WIZARD 101";
 
 const ShowOptions = document.querySelector('div .options');
 
 ShowOptions.innerHTML = "<button>Begin!</button>";
 
-    console.log(chapitre);
+console.log(chapitre);
+
 };
