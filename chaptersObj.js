@@ -179,7 +179,7 @@ ShowSummary.innerHTML = chapitre.subtitle;
 
 const ShowOptions = document.querySelector('div .options');
 
-ShowOptions.innerHTML = "<button>Begin!</button>";
+ShowOptions.innerHTML = chapitre.options;
 
 console.log(chapitre);
 
