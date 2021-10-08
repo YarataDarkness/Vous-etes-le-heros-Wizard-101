@@ -165,7 +165,7 @@ const chaptersObj = {
 };
 
 
-let chapitre = 'chapter0';
+let chapitre = chaptersObj.chapter0;
 
 function goToChapter(chapterName){
 
