@@ -175,7 +175,7 @@ ShowTitre.innerHTML = "WIZARD 101";
 
 const ShowSummary = document.querySelector('.summary');
 
-ShowSummary.innerHTML = "WIZARD 101";
+ShowSummary.innerHTML = "You're a wizard and today is your first schoolday! Shenaningans better not happen!";
 
 const ShowOptions = document.querySelector('div .options');
 
