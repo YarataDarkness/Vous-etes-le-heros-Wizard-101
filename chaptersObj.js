@@ -167,7 +167,7 @@ const chaptersObj = {
 
 function goToChapter(chapterName){
 
-let chapitre = chaptersObj.chapter0;
+let chapitre = chaptersObj[chapterName];
 
 const ShowTitre = document.querySelector('.title');
 
