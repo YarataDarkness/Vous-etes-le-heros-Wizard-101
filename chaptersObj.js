@@ -181,6 +181,8 @@ const ShowOptions = document.querySelector('div .options');
 
 ShowOptions.innerHTML = chapitre.options;
 
+
+
 console.log(chapitre);
 
 };
