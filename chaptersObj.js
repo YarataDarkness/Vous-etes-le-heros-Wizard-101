@@ -181,7 +181,7 @@ const ShowOptions = document.querySelector('div .options');
 
 ShowOptions.innerHTML = chapitre.options;
 
-const ShowImg = document.querySelector('img');
+const ShowImg = document.querySelector('.img');
 
 ShowImg.innerHTML = chapitre.img;
 
