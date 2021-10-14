@@ -183,7 +183,7 @@ ShowOptions.innerHTML = chapitre.options;
 
 const ShowImg = document.querySelector('.image');
 
-ShowImg.innerHTML = chapitre.img;
+ShowImg.innerHTML = `<img src="${chapitre.img}">`
 
 console.log(chapitre);
 
