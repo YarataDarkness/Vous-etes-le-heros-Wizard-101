@@ -179,7 +179,7 @@ ShowSummary.innerHTML = chapitre.text;
 
 const ShowOptions = document.querySelector('div .options');
 
-ShowOptions.innerHTML = chapitre.options;
+ShowOptions.innerHTML = `<button>${chapitre.options}</button>`;
 
 const ShowImg = document.querySelector('.image');
 
