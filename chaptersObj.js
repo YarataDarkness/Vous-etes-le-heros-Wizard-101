@@ -188,7 +188,7 @@ ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 //
 chapitre.options.forEach(function(ShowAction){
      //`<button>${chapitre.text}</button>`;//
-     console.log(`<button>${chapitre.options{'.text'}}</button>`);
+     console.log(`<button>${chapitre.options['.text']}</button>`);
 });
 //
 
