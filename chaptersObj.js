@@ -186,10 +186,10 @@ const ShowImg = document.querySelector('.image');
 ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
 //
-chapitre.options.forEach(function(ShowAction){
+chapitre.options.forEach(function(ShowAction).innerHTML{
      //`<button>${chapitre.text}</button>`;//
      //console.log(`<button>${ShowAction['text']}</button>`);
-     (`<button>${ShowAction['text']}</button>`).innerHTML
+     (`<button>${ShowAction['text']}</button>`)
 });
 //
 };
