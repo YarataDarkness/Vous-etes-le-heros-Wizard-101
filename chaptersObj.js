@@ -191,7 +191,4 @@ chapitre.options.forEach(function(ShowAction){
      console.log(`<button>${chapitre.options['text']}</button>`);
 });
 //
-
-console.log(chapitre);
-
 };
