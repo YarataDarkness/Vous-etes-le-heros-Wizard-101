@@ -169,7 +169,7 @@ function goToChapter(chapterName){
 
 let bagTaken = false;
 
-function isbagTaken{
+function isbagTaken(){
      let bagTaken = true;
 };
 
