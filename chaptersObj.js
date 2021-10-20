@@ -164,14 +164,13 @@ const chaptersObj = {
    },
 };
 
-
-function goToChapter(chapterName){
-
 let bagTaken = false;
 
 function isbagTaken(){
      let bagTaken = true;
 };
+
+function goToChapter(chapterName){
 
 let chapitre = chaptersObj[chapterName];
 
