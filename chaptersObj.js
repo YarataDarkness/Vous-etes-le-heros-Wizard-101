@@ -189,7 +189,7 @@ ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 chapitre.options.forEach(function(ShowAction){
      //`<button>${chapitre.text}</button>`;//
      //console.log(`<button>${ShowAction['text']}</button>`);
-     (`<button>${ShowAction['text']}</button>`);
+     (`<button>${ShowAction['text']}</button>`),
      ShowAction.addEventListener("click", ['action']);
 
 });
