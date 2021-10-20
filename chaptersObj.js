@@ -170,6 +170,12 @@ function isbagTaken(){
      let bagTaken = true;
 };
 
+function whenbagTaken(){
+     if( bagTaken = true){
+          goToChapter(chapitre.options.text['kill']);
+     };
+};
+
 function goToChapter(chapterName){
 
 let chapitre = chaptersObj[chapterName];
@@ -198,5 +204,4 @@ chapitre.options.forEach(function(ShowAction){
      //ShowAction.addEventListener("click", ['action']);
 
 });
-//
 };
