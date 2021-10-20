@@ -169,6 +169,10 @@ function goToChapter(chapterName){
 
 let bagTaken = false;
 
+function isbagTaken{
+     let bagTaken = true;
+};
+
 let chapitre = chaptersObj[chapterName];
 
 const ShowTitre = document.querySelector('.title');
@@ -191,8 +195,8 @@ ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 chapitre.options.forEach(function(ShowAction){
      //`<button>${chapitre.text}</button>`;//
      //console.log(`<button>${ShowAction['text']}</button>`);
-     (`<button>${ShowAction['text']}</button>`),
-     ShowAction.addEventListener("click", ['action']);
+     (`<button>${ShowAction['text']}</button>`);
+     //ShowAction.addEventListener("click", ['action']);
 
 });
 //
