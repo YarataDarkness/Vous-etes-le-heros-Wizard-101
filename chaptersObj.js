@@ -164,7 +164,7 @@ const chaptersObj = {
         ]
    },
 
-   chapter101{
+   chapter101: {
      subtitle: "Of course...",
      text: "I mean yeah...a hug from somoene who tried to kill you is kind of weird...",
      img: ,
@@ -176,7 +176,7 @@ const chaptersObj = {
      ]
    },
 
-   chapter103{
+   chapter103: {
      subtitle: "Of course!"
      text: "Great job! You've got a medal for your evil deed! Why would you want to be friend with that thing anyway?",
      img: ,
