@@ -146,7 +146,7 @@ const chaptersObj = {
    
    chapter9: {
         subtitle: "what_you_really_were",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        text: "So, they're opening their arms to you...what now?",
         img: "chapter9.png",
         options: [
              {
@@ -162,6 +162,12 @@ const chaptersObj = {
              }
         ]
    },
+
+   chapter103{
+     subtitle: "what_you_really_were",
+     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+     img: ,
+   }
 };
 
 let bagTaken = false;
