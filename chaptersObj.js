@@ -197,7 +197,7 @@ function isbagTaken(){
 
 function whenbagTaken(){
      if( bagTaken = true){
-          goToChapter(chapitre.options.['chapter103']);
+          goToChapter('chapter103');
      };
 };
 
