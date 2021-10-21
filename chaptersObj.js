@@ -150,24 +150,43 @@ const chaptersObj = {
         img: "chapter9.png",
         options: [
              {
-               text: "Ignore the...hug"
-
+               text: "Ignore the...hug",
+               action: 'goTochapter("Of course...")'
              },
              {
-               text: "Hug"
+               text: "Hug",
 
              },
              {
                text: "kill",
+               action: 'goTochapter("Of course!")'
              }
         ]
    },
 
-   chapter103{
-     subtitle: "what_you_really_were",
-     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+   chapter101{
+     subtitle: "Of course...",
+     text: "I mean yeah...a hug from somoene who tried to kill you is kind of weird...",
      img: ,
-   }
+     options: [
+          {
+               text: "Restart?",
+               action: 'goTochapter("start")'
+          },
+     ]
+   },
+
+   chapter103{
+     subtitle: "Of course!"
+     text: "Great job! You've got a medal for your evil deed! Why would you want to be friend with that thing anyway?",
+     img: ,
+     options: [
+          {
+               text: "Restart?",
+               action: 'goTochapter("start")'
+          },
+     ]
+   },
 };
 
 let bagTaken = false;
