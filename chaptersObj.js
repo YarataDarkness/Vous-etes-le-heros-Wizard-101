@@ -6,7 +6,7 @@ const chaptersObj = {
     options: [
       {
         text: "Begin",
-        action: 'goToChapter("chapter1")'
+        action: 'goToChapter("awakening")'
       }
     ]
   },
@@ -18,11 +18,11 @@ const chaptersObj = {
     options: [
       {
         text: "Wake Up",
-        action: 'goToChapter("chapter2")',
+        action: 'goToChapter("funny_whole_hole")',
       },
       { 
            text: "Sleep more", 
-           action: 'goToChapter("chapter0")' 
+           action: 'goToChapter("start")' 
           }
      ]
    },
@@ -234,4 +234,4 @@ function goToChapter(chapterName) {
   ShowOptions.innerHTML = buttonsCode;
 }
 
-goToChapter('chapter0')
+goToChapter("start")
