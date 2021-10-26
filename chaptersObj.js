@@ -234,4 +234,4 @@ function goToChapter(chapterName) {
   ShowOptions.innerHTML = buttonsCode;
 }
 
-goToChapter("start")
+goToChapter("start");
