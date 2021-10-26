@@ -166,7 +166,6 @@ const chaptersObj = {
    chapter101: {
      subtitle: "Of course...",
      text: "I mean yeah...a hug from somoene who tried to kill you is kind of weird...",
-     img: ,
      options: [
           {
                text: "Restart?",
@@ -176,9 +175,8 @@ const chaptersObj = {
    },
 
    chapter103: {
-     subtitle: "Of course!"
+     subtitle: "Of course!",
      text: "Great job! You've got a medal for your evil deed! Why would you want to be friend with that thing anyway?",
-     img: ,
      options: [
           {
                text: "Restart?",
@@ -236,4 +234,4 @@ function goToChapter(chapterName) {
   ShowOptions.innerHTML = buttonsCode;
 }
 
-goToChapter('chapter0');
+goToChapter('chapter0')
