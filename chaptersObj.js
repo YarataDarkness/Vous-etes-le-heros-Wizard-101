@@ -198,12 +198,6 @@ function whenbagTaken() {
   }
 }
 
-function whenbagTaken() {
-  if (bagTaken == true) {
-    goToChapter("kill");
-  }
-}
-
 function goToChapter(chapterName) {
   let chapitre = chaptersObj[chapterName];
 
