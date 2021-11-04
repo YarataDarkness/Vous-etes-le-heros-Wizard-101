@@ -158,7 +158,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'goTochapter("chapter101")',
+        action: 'goTochapter("chapter103")',
       },
     ],
   },
@@ -173,6 +173,18 @@ const chaptersObj = {
       },
     ],
   },
+
+  chapter102: {
+    subtitle: "Of course?",
+    text: "Really? We're going for this? Fine...Have fun pretending you're honest",
+    options: [
+      {
+        text: "Restart?",
+        action: 'goTochapter("chapter0")',
+      },
+    ],
+  },
+
 
   chapter103: {
     subtitle: "Of course!",
