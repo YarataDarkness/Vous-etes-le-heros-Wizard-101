@@ -227,7 +227,7 @@ function goToChapter(chapterName) {
 
 //code pour letape 3 du 4.1
 
-
+  
 
 
   const ShowOptions = document.querySelector(".options");
