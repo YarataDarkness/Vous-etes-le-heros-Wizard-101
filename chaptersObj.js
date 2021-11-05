@@ -170,6 +170,7 @@ const chaptersObj = {
       {
         text: "Restart?",
         action: 'goTochapter("chapter0")',
+        video: "video101.mp4",
       },
     ],
   },
@@ -181,6 +182,7 @@ const chaptersObj = {
       {
         text: "Restart?",
         action: 'goTochapter("chapter0")',
+        
       },
     ],
   },
@@ -193,6 +195,7 @@ const chaptersObj = {
       {
         text: "Restart?",
         action: 'goTochapter("chapter0")',
+        video: "video103.mp4",
       },
     ],
   },
