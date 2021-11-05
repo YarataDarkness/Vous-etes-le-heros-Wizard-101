@@ -225,6 +225,11 @@ function goToChapter(chapterName) {
   const ShowImg = document.querySelector(".image");
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
+//code pour letape 3 du 4.1
+
+
+
+
   const ShowOptions = document.querySelector(".options");
   let buttonsCode = "";
   chapitre.options.forEach(function (option) {
