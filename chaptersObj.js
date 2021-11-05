@@ -226,8 +226,8 @@ function goToChapter(chapterName) {
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
 //code pour letape 3 du 4.1
+  //if chapitre.option.includes (".video"){ ShowVideo.play();}
 
-  
 
 
   const ShowOptions = document.querySelector(".options");
