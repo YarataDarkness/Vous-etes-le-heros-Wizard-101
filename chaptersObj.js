@@ -226,7 +226,7 @@ function goToChapter(chapterName) {
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
   const ShowVideo = document.querySelector(".image");
-  ShowVideo.innerHTML = `<video src="assets/${chapitre.video}">`;
+  ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`;
 
 //code pour letape 3 du 4.1
   //if chapitre.includes(".video"){ ShowVideo.play();}
