@@ -225,7 +225,7 @@ function goToChapter(chapterName) {
   const ShowImg = document.querySelector(".image");
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
-  const ShowVideo = document.querySelector(".video");
+  const ShowVideo = document.querySelector(".image");
   ShowVideo.innerHTML = `<video src="assets/${chapitre.video}">`;
 
 //code pour letape 3 du 4.1
