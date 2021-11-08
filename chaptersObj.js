@@ -166,11 +166,11 @@ const chaptersObj = {
   chapter101: {
     subtitle: "Of course...",
     text: "I mean yeah...a hug from somoene who tried to kill you is kind of weird...",
+    video: "video101.mp4",
     options: [
       {
         text: "Restart?",
         action: 'goTochapter("chapter0")',
-        video: "video101.mp4",
       },
     ],
   },
@@ -191,11 +191,11 @@ const chaptersObj = {
   chapter103: {
     subtitle: "Of course!",
     text: "Great job! You've got a medal for your evil deed! Why would you want to be friend with that thing anyway?",
+    video: "video103.mp4",
     options: [
       {
         text: "Restart?",
         action: 'goTochapter("chapter0")',
-        video: "video103.mp4",
       },
     ],
   },
