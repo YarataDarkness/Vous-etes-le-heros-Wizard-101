@@ -228,7 +228,7 @@ function goToChapter(chapterName) {
 //code pour letape 3 du 4.1
   //if chapitre.option.includes (".video"){ ShowVideo.play();}
 
-console.log(video);
+console.log(chapitre.video);
 
   const ShowOptions = document.querySelector(".options");
   let buttonsCode = "";
