@@ -243,7 +243,7 @@ console.log(chapitre.video);
   let buttonsCode = "";
   chapitre.options.forEach(function (option) {
     buttonsCode += `<button onclick='${option.action}''>${option.text}</button>`;
-    PlayAudio.play();;
+    PlayAudio.play();
   });
   ShowOptions.innerHTML = buttonsCode;
 }
