@@ -34,15 +34,15 @@ const chaptersObj = {
     options: [
       {
         text: "Jump in the hole!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Stare in the hole...",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Ignore the hole",
-        action: 'goTochapter("chapter3")',
+        action: 'goToChapter("chapter3")',
       },
     ],
   },
@@ -54,11 +54,11 @@ const chaptersObj = {
     options: [
       {
         text: "Take the red Bag",
-        action: 'goTochapter("chapter4")',
+        action: 'goToChapter("chapter4")',
       },
       {
         text: "Nah...",
-        action: 'goTochapter("chapter4")',
+        action: 'goToChapter("chapter4")',
       },
     ],
   },
@@ -70,11 +70,11 @@ const chaptersObj = {
     options: [
       {
         text: "Stay a bit...for the cake!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "leave...the cake",
-        action: 'goTochapter("chapter5")',
+        action: 'goToChapter("chapter5")',
       },
     ],
   },
@@ -86,11 +86,11 @@ const chaptersObj = {
     options: [
       {
         text: "Turn around to see the pretty flames then!!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Ignore,ignore,ignore...",
-        action: 'goTochapter("chapter6")',
+        action: 'goToChapter("chapter6")',
       },
     ],
   },
@@ -102,7 +102,7 @@ const chaptersObj = {
     options: [
       {
         text: "Just walk away...",
-        action: 'goTochapter("chapter7")',
+        action: 'goToChapter("chapter7")',
       },
     ],
   },
@@ -114,19 +114,19 @@ const chaptersObj = {
     options: [
       {
         text: "Put on the fire school hat!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Put on the water school hat! There even a fish in it!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Put on the...plant?...school hat!",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
       {
         text: "Put on the...evil school hat?",
-        action: 'goTochapter("chapter8")',
+        action: 'goToChapter("chapter8")',
       },
     ],
   },
@@ -138,7 +138,7 @@ const chaptersObj = {
     options: [
       {
         text: "Well...that was unexpceted",
-        action: 'goTochapter("chapter9")',
+        action: 'goToChapter("chapter9")',
       },
     ],
   },
@@ -150,7 +150,7 @@ const chaptersObj = {
     options: [
       {
         text: "Ignore the...hug",
-        action: 'goTochapter("chapter101")',
+        action: 'goToChapter("chapter101")',
       },
       {
         text: "Hug",
@@ -158,7 +158,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'goTochapter("chapter103")',
+        action: 'goToChapter("chapter103")',
       },
     ],
   },
@@ -170,7 +170,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
     ],
   },
@@ -181,7 +181,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
         
       },
     ],
@@ -195,7 +195,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goTochapter("chapter0")',
+        action: 'goToChapter("chapter0")',
       },
     ],
   },
