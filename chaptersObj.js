@@ -228,7 +228,7 @@ function goToChapter(chapterName) {
   const ShowVideo = document.querySelector(".image");
 
 //code pour letape 3 du 4.1
-  if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video src="assets/${chapitre.video}">`};
+  if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`};
 
  // ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`;
 
