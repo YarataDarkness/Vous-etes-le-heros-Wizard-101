@@ -226,7 +226,7 @@ function goToChapter(chapterName) {
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
 //code pour letape 3 du 4.1
-  //if (chapitre.image == undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;}
+  if (chapitre.image == undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;}
 
   const ShowVideo = document.querySelector(".image");
   ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`;
