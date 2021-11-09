@@ -227,6 +227,8 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
+  const PlayAudio = document.querySelector("audio");
+
 //code pour letape 3 du 4.1
 
   if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}" loop muted autoplay>`};
@@ -241,6 +243,7 @@ console.log(chapitre.video);
   let buttonsCode = "";
   chapitre.options.forEach(function (option) {
     buttonsCode += `<button onclick='${option.action}''>${option.text}</button>`;
+    PlayAudio.play();;
   });
   ShowOptions.innerHTML = buttonsCode;
 }
