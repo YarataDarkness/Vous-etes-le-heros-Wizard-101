@@ -225,11 +225,12 @@ function goToChapter(chapterName) {
   const ShowImg = document.querySelector(".image");
   ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`;
 
+  const ShowVideo = document.querySelector(".image");
+
 //code pour letape 3 du 4.1
   if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video src="assets/${chapitre.video}">`};
 
-  const ShowVideo = document.querySelector(".image");
-  ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`;
+ // ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}">`;
 
 
 console.log(chapitre.video);
