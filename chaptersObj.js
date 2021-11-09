@@ -233,7 +233,7 @@ function goToChapter(chapterName) {
 
 //code pour letape 4 du 4.1
 
-let isaudio = new Audio("swoosh.wav");
+let isaudio = new Audio("assets/swoosh.wav");
 
 console.log(chapitre.video);
 
