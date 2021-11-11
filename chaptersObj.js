@@ -2,7 +2,13 @@
 //code pour letape 2 4.2
 localStorage.getItem("chapitre");
 
-console.log(localStorage.getItem("chapitre"));
+if(localStorage != undefined){
+  goToChapter(`chapterName`);
+}else if(localStorage == undefined){
+  goToChapter("chapter0");
+};
+
+//console.log(localStorage.getItem("chapitre"));
 
 const chaptersObj = {
   chapter0: {
@@ -254,6 +260,8 @@ console.log(chapitre.video);
     isaudio.play();
   });
   ShowOptions.innerHTML = buttonsCode;
+
+//code pour letape 2 4.2
 }
 
 goToChapter("chapter0");
