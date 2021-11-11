@@ -1,7 +1,7 @@
 
 //code pour letape 2 4.2
 document.addEventListener("DOMContentLoaded", function() { 
-  console("Le DOM à fini de charger");
+  
 });
 
 const chaptersObj = {
