@@ -1,9 +1,9 @@
 
 //code pour letape 2 4.2
-localStorage.getItem("chapitre");
+const iscurrentchapter = localStorage.getItem("chapitre");
 
 if(localStorage != undefined){
-  goToChapter(`chapterName`);
+  goToChapter(iscurrentchapter);
 }else if(localStorage == undefined){
   goToChapter("chapter0");
 };
