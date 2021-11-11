@@ -218,7 +218,7 @@ function goToChapter(chapterName) {
 
   //code pour letape 1 du 4.2
 
-  localStorage.setItem("chapterName", chaptersObj);
+  localStorage.setItem("chapitre", chaptersObj);
 
   const ShowTitre = document.querySelector(".title");
   ShowTitre.innerHTML = chapitre.subtitle;
