@@ -1,3 +1,7 @@
+
+//code pour letape 2 4.2
+
+
 const chaptersObj = {
   chapter0: {
     subtitle: "start",
