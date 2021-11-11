@@ -1,8 +1,8 @@
 
 //code pour letape 2 4.2
-document.addEventListener("DOMContentLoaded", function() { 
-  localStorage.getItem("chapitre");
-});
+localStorage.getItem("chapitre");
+
+console.log(localStorage.getItem("chapitre"));
 
 const chaptersObj = {
   chapter0: {
