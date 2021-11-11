@@ -216,6 +216,10 @@ function whenbagTaken() {
 function goToChapter(chapterName) {
   let chapitre = chaptersObj[chapterName];
 
+  //code pour letape 1 du 4.2
+
+  localStorage.setItem("chapterName", chaptersObj);
+
   const ShowTitre = document.querySelector(".title");
   ShowTitre.innerHTML = chapitre.subtitle;
 
