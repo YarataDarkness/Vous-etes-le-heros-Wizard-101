@@ -253,8 +253,9 @@ console.log(chapitre.video);
   });
   ShowOptions.innerHTML = buttonsCode;
 
-//code pour letape 2 4.2
 }
+
+goToChapter("chapter0");
 
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
@@ -264,5 +265,3 @@ if(iscurrentchapter != undefined){
 }else if(iscurrentchapter == undefined){
   goToChapter("chapter0");
 };
-
-goToChapter("chapter0");
