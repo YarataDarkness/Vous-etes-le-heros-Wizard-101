@@ -1,12 +1,4 @@
 
-//code pour letape 2 4.2
-const iscurrentchapter = localStorage.getItem("chapitre");
-
-if(iscurrentchapter != undefined){
-  goToChapter(iscurrentchapter);
-}else if(iscurrentchapter == undefined){
-  goToChapter("chapter0");
-};
 
 //console.log(localStorage.getItem("chapitre"));
 
@@ -263,5 +255,14 @@ console.log(chapitre.video);
 
 //code pour letape 2 4.2
 }
+
+//code pour letape 2 4.2
+const iscurrentchapter = localStorage.getItem("chapitre");
+
+if(iscurrentchapter != undefined){
+  goToChapter(iscurrentchapter);
+}else if(iscurrentchapter == undefined){
+  goToChapter("chapter0");
+};
 
 goToChapter("chapter0");
