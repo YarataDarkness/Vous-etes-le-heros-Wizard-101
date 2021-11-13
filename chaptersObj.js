@@ -4,7 +4,7 @@ const iscurrentchapter = localStorage.getItem("chapitre");
 
 if(iscurrentchapter != undefined){
   goToChapter(iscurrentchapter);
-}else if(iscurrentchapter = undefined){
+}else if(iscurrentchapter == undefined){
   goToChapter("chapter0");
 };
 
