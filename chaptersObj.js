@@ -271,7 +271,7 @@ localStorage.setItem("bagTaken");
 
 const iscurrentobject = localStorage.getItem("bagTaken");
 
-const iscurrentobject = localStorage.setItem("bagTaken");
+localStorage.setItem("bagTaken");
 
 if(iscurrentobject != undefined){
   iscurrentobject = true;
