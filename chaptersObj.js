@@ -263,3 +263,6 @@ if(iscurrentchapter != undefined){
 }else if(iscurrentchapter == undefined){
   goToChapter("chapter0");
 };
+
+//code pour letape 3 4.2
+
