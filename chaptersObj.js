@@ -264,5 +264,24 @@ if(iscurrentchapter != undefined){
   goToChapter("chapter0");
 };
 
+
 //code pour letape 3 4.2
 
+//const iscurrentobject = localStorage.getItem("bagTaken");
+
+//if(iscurrentobject != undefined){
+  
+//}
+
+
+//let bagTaken = false;
+
+//function isbagTaken() {
+//  bagTaken = true;
+//}
+
+//function whenbagTaken() {
+ // if (bagTaken == true) {
+ //   goToChapter("chapter103");
+ // }
+//}
