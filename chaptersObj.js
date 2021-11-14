@@ -263,5 +263,3 @@ if(iscurrentchapter != undefined){
 }else if(iscurrentchapter == undefined){
   goToChapter("chapter0");
 };
-
-goToChapter("chapter0");
