@@ -237,6 +237,14 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
+  chapitre.text.addEventListener('click', function(){
+    if (chapitre.text == "Take the red Bag"){
+      bagTaken = true;
+    };
+  });
+
+  //if (chapitre.text == "Take the red Bag")
+
 //code pour letape 3 du 4.1
 
   if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}" loop muted autoplay>`};
