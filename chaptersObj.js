@@ -237,7 +237,7 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
-  chapitre.text.addEventListener('click', function(){
+  chapitre.addEventListener('click', function(){
     if (chapitre.text == "Take the red Bag"){
       bagTaken = true;
     };
