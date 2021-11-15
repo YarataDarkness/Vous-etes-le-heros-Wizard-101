@@ -237,11 +237,11 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
-  chapitre.addEventListener('click', function(){
-    if (chapitre.text == "Take the red Bag"){
-      bagTaken = true;
-    };
-  });
+  //chapitre.addEventListener('click', function(){
+  //  if (chapitre.text == "Take the red Bag"){
+  //    bagTaken = true;
+   // };
+  //});
 
   //if (chapitre.text == "Take the red Bag")
 
