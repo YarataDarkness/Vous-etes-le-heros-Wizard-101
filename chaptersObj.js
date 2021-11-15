@@ -214,6 +214,8 @@ function isbagTaken() {
 function whenbagTaken() {
   if (bagTaken == true) {
     goToChapter("chapter103");
+  } else if (bagTaken == false){
+    goToChapter("chapter101", "chapter102");
   }
 }
 
