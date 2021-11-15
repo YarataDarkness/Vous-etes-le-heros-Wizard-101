@@ -277,11 +277,9 @@ if(iscurrentchapter != undefined){
 
 //code pour letape 3 4.2
 
-localStorage.setItem("bagTaken");
+localStorage.setItem("bagTaken", isbagTaken);
 
 const iscurrentobject = localStorage.getItem("bagTaken");
-
-localStorage.setItem("bagTaken", isbagTaken);
 
 if(iscurrentobject != undefined){
   iscurrentobject = true;
