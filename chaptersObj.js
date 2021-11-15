@@ -209,6 +209,7 @@ let bagTaken = false;
 
 function isbagTaken() {
   bagTaken = true;
+  goToChapter("chapter103");
 }
 
 function whenbagTaken() {
