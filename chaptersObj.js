@@ -23,7 +23,7 @@ const chaptersObj = {
       },
       {
         text: "Sleep more",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
     ],
   },
@@ -35,11 +35,11 @@ const chaptersObj = {
     options: [
       {
         text: "Jump in the hole!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Stare in the hole...",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Ignore the hole",
@@ -71,7 +71,7 @@ const chaptersObj = {
     options: [
       {
         text: "Stay a bit...for the cake!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "leave...the cake",
@@ -87,7 +87,7 @@ const chaptersObj = {
     options: [
       {
         text: "Turn around to see the pretty flames then!!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Ignore,ignore,ignore...",
@@ -115,15 +115,15 @@ const chaptersObj = {
     options: [
       {
         text: "Put on the fire school hat!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Put on the water school hat! There even a fish in it!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Put on the...plant?...school hat!",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
       {
         text: "Put on the...evil school hat?",
@@ -272,6 +272,13 @@ function notbagTaken2() {
    }
  };
 //
+
+//the restart default thingy
+function isrestart(){
+  goToChapter("chapter0");
+  localStorage.clear(iscurrentchapter);
+  localStorage.clear(iscurrentobject);
+}
  
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
