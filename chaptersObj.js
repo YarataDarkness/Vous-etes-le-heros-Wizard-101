@@ -58,7 +58,7 @@ const chaptersObj = {
     options: [
       {
         text: "Take the red Bag",
-        action: 'goToChapter("chapter4")',
+        action: 'isbagTaken()',
       },
       {
         text: "Nah...",
