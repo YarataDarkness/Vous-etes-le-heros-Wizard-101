@@ -276,8 +276,7 @@ function notbagTaken2() {
 //the restart default thingy
 function isrestart(){
   goToChapter("chapter0");
-  localStorage.clear(iscurrentchapter);
-  localStorage.clear(iscurrentobject);
+  bagTaken = false;
 }
  
 //code pour letape 2 4.2
