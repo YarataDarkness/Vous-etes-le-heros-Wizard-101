@@ -250,8 +250,9 @@ let isaudio = new Audio("assets/swoosh.wav");
 //
 function isbagTaken() {
   bagTaken = true;
- // goToChapter("chapter4");
+  goToChapter("chapter4");
   localStorage.setItem("bagTaken", bagTaken);
+  localStorage.clear("chapitre");
  }
  
  //to make chapter 103 accessible
