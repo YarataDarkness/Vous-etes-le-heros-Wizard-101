@@ -265,6 +265,21 @@ let isaudio = new Audio("assets/swoosh.wav");
 
 }
 
+
+function isbagTaken() {
+  bagTaken = true;
+  goToChapter("chapter103");
+ }
+ 
+ function whenbagTaken() {
+   if (bagTaken == true) {
+     goToChapter("chapter103");
+   } else if (bagTaken == false){
+    goToChapter("chapter101", "chapter102");
+   }
+ }
+ 
+
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
 
