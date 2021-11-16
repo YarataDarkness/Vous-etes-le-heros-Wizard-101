@@ -62,7 +62,7 @@ const chaptersObj = {
       },
       {
         text: "Nah...",
-        action: 'goToChapter("chapter4")',
+        action: 'notbagTaken()',
       },
     ],
   },
