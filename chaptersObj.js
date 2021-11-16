@@ -1,7 +1,4 @@
 
-
-//console.log(localStorage.getItem("chapitre"));
-
 const chaptersObj = {
   chapter0: {
     subtitle: "start",
