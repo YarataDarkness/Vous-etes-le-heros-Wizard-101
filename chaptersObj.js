@@ -262,6 +262,7 @@ let isaudio = new Audio("assets/swoosh.wav");
   });
   ShowOptions.innerHTML = buttonsCode;
 
+
 }
 
 //code pour letape 2 4.2
