@@ -227,23 +227,6 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
-//bag code
-
-
-function isbagTaken() {
- bagTaken = true;
- goToChapter("chapter103");
-}
-
-function whenbagTaken() {
-  if (bagTaken == true) {
-    goToChapter("chapter103");
-  } else if (bagTaken == false){
-   goToChapter("chapter101", "chapter102");
-  }
-}
-
-
 //code pour letape 3 du 4.1
 
   if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}" loop muted autoplay>`};
@@ -262,10 +245,9 @@ let isaudio = new Audio("assets/swoosh.wav");
   });
   ShowOptions.innerHTML = buttonsCode;
 
-
 }
 
-
+//
 function isbagTaken() {
   bagTaken = true;
   goToChapter("chapter103");
@@ -279,7 +261,6 @@ function isbagTaken() {
    }
  }
  
-
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
 
