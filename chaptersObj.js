@@ -278,6 +278,7 @@ function isrestart(){
   goToChapter("chapter0");
   bagTaken = false;
 }
+//it all about the monkey way
  
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
