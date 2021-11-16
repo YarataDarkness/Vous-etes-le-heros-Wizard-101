@@ -230,23 +230,19 @@ function goToChapter(chapterName) {
 //bag code
 
 
+function isbagTaken() {
+ bagTaken = true;
+ goToChapter("chapter103");
+}
 
+function whenbagTaken() {
+  if (bagTaken == true) {
+    goToChapter("chapter103");
+  } else if (bagTaken == false){
+   goToChapter("chapter101", "chapter102");
+  }
+}
 
-
-
-//function isbagTaken() {
- // bagTaken = true;
- // goToChapter("chapter103");
-//}
-
-//function whenbagTaken() {
- // if (bagTaken == true) {
-  //  goToChapter("chapter103");
- // } else if (bagTaken == false){
- //   goToChapter("chapter101", "chapter102");
-  //}
-//}
-//
 
 //code pour letape 3 du 4.1
 
