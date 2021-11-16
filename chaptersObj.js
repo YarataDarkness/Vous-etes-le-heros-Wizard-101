@@ -252,7 +252,7 @@ function isbagTaken() {
   bagTaken = true;
   goToChapter("chapter4");
   localStorage.setItem("bagTaken", bagTaken);
- }
+}
  
  //to make chapter 103 accessible
 
