@@ -271,7 +271,7 @@ if(iscurrentchapter != undefined){
 };
 
 //code pour letape 3 4.2
-let iscurrentobject = localStorage.getItem("bagTaken");
+let iscurrentobject = localStorage.getItem("isbagTaken");
 
 if(iscurrentobject != undefined){
   iscurrentobject = true;
