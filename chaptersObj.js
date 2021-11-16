@@ -214,6 +214,7 @@ function goToChapter(chapterName) {
   //code pour letape 1 du 4.2
 
   localStorage.setItem("chapitre", chapterName);
+  localStorage.setItem("bagTaken", bagTaken);
 
   const ShowTitre = document.querySelector(".title");
   ShowTitre.innerHTML = chapitre.subtitle;
@@ -227,18 +228,24 @@ function goToChapter(chapterName) {
   const ShowVideo = document.querySelector(".image");
 
 //bag code
-function isbagTaken() {
-  bagTaken = true;
-  goToChapter("chapter103");
-}
 
-function whenbagTaken() {
-  if (bagTaken == true) {
-    goToChapter("chapter103");
-  } else if (bagTaken == false){
-    goToChapter("chapter101", "chapter102");
-  }
-}
+
+
+
+
+
+//function isbagTaken() {
+ // bagTaken = true;
+ // goToChapter("chapter103");
+//}
+
+//function whenbagTaken() {
+ // if (bagTaken == true) {
+  //  goToChapter("chapter103");
+ // } else if (bagTaken == false){
+ //   goToChapter("chapter101", "chapter102");
+  //}
+//}
 //
 
 //code pour letape 3 du 4.1
@@ -249,7 +256,7 @@ function whenbagTaken() {
 
 let isaudio = new Audio("assets/swoosh.wav");
 
-console.log(chapitre.video);
+ //console.log(chapitre.video);
 
   const ShowOptions = document.querySelector(".options");
   let buttonsCode = "";
@@ -271,8 +278,6 @@ if(iscurrentchapter != undefined){
 };
 
 //code pour letape 3 4.2
-localStorage.setItem("bagTaken", bagTaken);
-
 const iscurrentobject = localStorage.getItem("bagTaken");
 
 if(iscurrentobject != undefined){
