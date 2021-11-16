@@ -278,6 +278,9 @@ if(iscurrentchapter != undefined){
 }else if(iscurrentchapter == undefined){
   localStorage.clear("chapitre");
   goToChapter("chapter0");
+}else if(iscurrentchapter == chapter0){
+  localStorage.clear("chapitre");
+  localStorage.clear("bagTaken");
 };
 
 //code pour letape 3 4.2
