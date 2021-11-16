@@ -162,7 +162,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'goToChapter("chapter103")',
+        action: 'isbagTaken("chapter103")',
       },
     ],
   },
@@ -250,13 +250,12 @@ let isaudio = new Audio("assets/swoosh.wav");
 //
 function isbagTaken() {
   bagTaken = true;
-  goToChapter("chapter103");
  }
  
  function whenbagTaken() {
-   if (bagTaken == true) {
+   if (isbagTaken == true) {
      goToChapter("chapter103");
-   } else if (bagTaken == false){
+   } else if (isbagTaken == false){
     goToChapter("chapter101", "chapter102");
    }
  }
