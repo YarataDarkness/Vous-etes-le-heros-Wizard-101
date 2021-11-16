@@ -171,7 +171,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
     ],
   },
@@ -182,7 +182,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
         
       },
     ],
@@ -196,7 +196,7 @@ const chaptersObj = {
     options: [
       {
         text: "Restart?",
-        action: 'goToChapter("chapter0")',
+        action: 'isrestart()',
       },
     ],
   },
