@@ -254,6 +254,12 @@ function isbagTaken() {
   localStorage.setItem("bagTaken", bagTaken);
 }
 
+function notbagTaken() {
+  bagTaken = false;
+  goToChapter("chapter4");
+  localStorage.setItem("bagTaken", bagTaken);
+}
+
 function isbagTaken2() {
   bagTaken = true;
   localStorage.setItem("bagTaken", bagTaken);
