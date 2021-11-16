@@ -250,7 +250,7 @@ let isaudio = new Audio("assets/swoosh.wav");
 //
 function isbagTaken() {
   bagTaken = true;
-  goToChapter("chapter103");
+  goToChapter("chapter4");
  }
  
  //function whenbagTaken() {
