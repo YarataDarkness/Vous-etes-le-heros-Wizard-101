@@ -162,7 +162,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'whenbagTaken()',
+        action: 'whenbagTaken("chapter103")',
       },
     ],
   },
