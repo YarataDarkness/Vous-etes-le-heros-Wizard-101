@@ -275,7 +275,7 @@ if(iscurrentchapter != undefined){
 const iscurrentobject = localStorage.getItem("bagTaken");
 
 if(iscurrentobject != undefined){
-  iscurrentobject = true;
+  isbagTaken = true;
 }else if(iscurrentobject == undefined){
-  iscurrentobject = false;
+  isbagTaken = false;
 };
