@@ -159,7 +159,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'goToChapter("chapter103")',
+        action: 'whenbagTaken()',
       },
     ],
   },
@@ -268,12 +268,10 @@ function notbagTaken2() {
  //to make chapter 103 accessible
 
  function whenbagTaken() {
-   if (isbagTaken == true) {
+   if (bagTaken == true) {
      goToChapter("chapter103");
-   } else if (isbagTaken == false){
-    goToChapter("chapter101", "chapter102");
    }
- }
+ };
 //
  
 //code pour letape 2 4.2
