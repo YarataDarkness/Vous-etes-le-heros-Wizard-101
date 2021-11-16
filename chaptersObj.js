@@ -266,9 +266,8 @@ function notbagTaken2() {
 }
  
  //to make chapter 103 accessible
-
  function whenbagTaken() {
-   if (bagTaken == true) {
+   if (bagTaken = true) {
      goToChapter("chapter103");
    }
  };
