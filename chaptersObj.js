@@ -207,9 +207,7 @@ function goToChapter(chapterName) {
 
   let chapitre = chaptersObj[chapterName];
   //code pour letape 1 du 4.2
-
   localStorage.setItem("chapitre", chapterName);
-  localStorage.setItem("bagTaken", bagTaken);
 
   const ShowTitre = document.querySelector(".title");
   ShowTitre.innerHTML = chapitre.subtitle;
@@ -243,6 +241,7 @@ let isaudio = new Audio("assets/swoosh.wav");
 }
 
 let bagTaken = false;
+localStorage.setItem("bagTaken", bagTaken);
 //
 function isbagTaken() {
   bagTaken = true;
