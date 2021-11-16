@@ -162,7 +162,7 @@ const chaptersObj = {
       },
       {
         text: "kill",
-        action: 'isbagTaken',
+        action: 'whenbagTaken()',
       },
     ],
   },
@@ -254,13 +254,16 @@ function isbagTaken() {
   localStorage.setItem("bagTaken", bagTaken);
  }
  
- //function whenbagTaken() {
-  // if (isbagTaken == true) {
-  //   goToChapter("chapter103");
-  // } else if (isbagTaken == false){
-  //  goToChapter("chapter101", "chapter102");
-  // }
-// }
+ //to make chapter 103 accessible
+
+ function whenbagTaken() {
+   if (isbagTaken == true) {
+     goToChapter("chapter103");
+   } else if (isbagTaken == false){
+    goToChapter("chapter101", "chapter102");
+   }
+ }
+//
  
 //code pour letape 2 4.2
 const iscurrentchapter = localStorage.getItem("chapitre");
