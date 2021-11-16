@@ -279,8 +279,7 @@ if(iscurrentchapter != undefined){
 const iscurrentobject = localStorage.getItem("bagTaken");
 
 if(iscurrentobject != undefined){
-  //isbagTaken();
-  bagTaken = true;
+  isbagTaken();
 }else if(iscurrentobject == undefined){
   localStorage.clear("bagTaken");
 };
