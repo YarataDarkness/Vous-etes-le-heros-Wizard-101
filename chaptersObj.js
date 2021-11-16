@@ -207,7 +207,7 @@ const chaptersObj = {
 
 
 function goToChapter(chapterName) {
-  
+
   let chapitre = chaptersObj[chapterName];
   //code pour letape 1 du 4.2
 
@@ -263,6 +263,11 @@ function isbagTaken2() {
   bagTaken = true;
   localStorage.setItem("bagTaken", bagTaken);
 }
+
+function notbagTaken2() {
+  bagTaken = false;
+  localStorage.setItem("bagTaken", bagTaken);
+}
  
  //to make chapter 103 accessible
 
@@ -294,5 +299,6 @@ const iscurrentobject = localStorage.getItem("bagTaken");
 if(iscurrentobject != undefined){
   isbagTaken2();
 }else if(iscurrentobject == undefined){
+  notbagTaken2()
   localStorage.clear("bagTaken");
 };
