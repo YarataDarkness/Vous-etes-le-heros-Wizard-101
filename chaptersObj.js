@@ -207,10 +207,8 @@ const chaptersObj = {
 
 
 function goToChapter(chapterName) {
+  
   let chapitre = chaptersObj[chapterName];
-
-  let bagTaken = false;
-
   //code pour letape 1 du 4.2
 
   localStorage.setItem("chapitre", chapterName);
@@ -247,6 +245,7 @@ let isaudio = new Audio("assets/swoosh.wav");
 
 }
 
+let bagTaken = false;
 //
 function isbagTaken() {
   bagTaken = true;
