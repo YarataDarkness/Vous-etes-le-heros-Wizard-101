@@ -253,6 +253,11 @@ function isbagTaken() {
   goToChapter("chapter4");
   localStorage.setItem("bagTaken", bagTaken);
 }
+
+function isbagTaken2() {
+  bagTaken = true;
+  localStorage.setItem("bagTaken", bagTaken);
+}
  
  //to make chapter 103 accessible
 
@@ -279,7 +284,7 @@ if(iscurrentchapter != undefined){
 const iscurrentobject = localStorage.getItem("bagTaken");
 
 if(iscurrentobject != undefined){
-  isbagTaken();
+  isbagTaken2();
 }else if(iscurrentobject == undefined){
   localStorage.clear("bagTaken");
 };
