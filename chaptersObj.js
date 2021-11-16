@@ -205,20 +205,6 @@ const chaptersObj = {
   },
 };
 
-let bagTaken = false;
-
-function isbagTaken() {
-  bagTaken = true;
-  goToChapter("chapter103");
-}
-
-function whenbagTaken() {
-  if (bagTaken == true) {
-    goToChapter("chapter103");
-  } else if (bagTaken == false){
-    goToChapter("chapter101", "chapter102");
-  }
-}
 
 function goToChapter(chapterName) {
   let chapitre = chaptersObj[chapterName];
@@ -238,13 +224,22 @@ function goToChapter(chapterName) {
 
   const ShowVideo = document.querySelector(".image");
 
-  //chapitre.addEventListener('click', function(){
-  //  if (chapitre.text == "Take the red Bag"){
-  //    bagTaken = true;
-   // };
-  //});
+  //bag code
+let bagTaken = false;
 
-  //if (chapitre.text == "Take the red Bag")
+function isbagTaken() {
+  bagTaken = true;
+  goToChapter("chapter103");
+}
+
+function whenbagTaken() {
+  if (bagTaken == true) {
+    goToChapter("chapter103");
+  } else if (bagTaken == false){
+    goToChapter("chapter101", "chapter102");
+  }
+}
+//
 
 //code pour letape 3 du 4.1
 
