@@ -202,6 +202,9 @@ const chaptersObj = {
   },
 };
 
+//code pour letape 4 du 4.1
+let isaudio = new Audio("assets/swoosh.wav");
+
 
 function goToChapter(chapterName) {
 
@@ -224,19 +227,14 @@ function goToChapter(chapterName) {
 
   if (chapitre.img != undefined) {ShowImg.innerHTML = `<img src="assets/${chapitre.img}">`} else if (chapitre.video != undefined){ShowVideo.innerHTML = `<video width="1000" height="1000" src="assets/${chapitre.video}" loop muted autoplay>`};
 
-//code pour letape 4 du 4.1
-
-let isaudio = new Audio("assets/swoosh.wav");
-
- //console.log(chapitre.video);
-
   const ShowOptions = document.querySelector(".options");
   let buttonsCode = "";
   chapitre.options.forEach(function (option) {
     buttonsCode += `<button onclick='${option.action}''>${option.text}</button>`;
-    isaudio.play();
   });
   ShowOptions.innerHTML = buttonsCode;
+
+  isaudio.play();
 
 }
 
