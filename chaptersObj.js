@@ -265,7 +265,11 @@ let wantaudio = true;
 const ischbwantaudio = document.querySelector('.wantaudio');
 
 ischbwantaudio.addEventListener('change', function(){
-  wantaudio = false;
+  if (ischbwantaudio == checked){
+    wantaudio = true
+  } else if (ischbwantaudio != checked){
+    wantaudio = false
+  }
 })
 
 
