@@ -264,6 +264,8 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
+ischbwantaudio.setAttribute('checkbox','checked');
+
 //
 let bagTaken = false;
 localStorage.setItem("bagTaken", bagTaken);
