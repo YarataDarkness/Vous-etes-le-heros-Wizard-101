@@ -264,6 +264,11 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
+ischbwantaudio.addEventListener('change', function(){
+  wantaudio = false;
+})
+
+
 if (wantaudio == true){
   isaudio.play();
 } else if (wantaudio == false){
