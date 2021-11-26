@@ -265,7 +265,7 @@ let wantaudio = true;
 const ischbwantaudio = document.querySelector('.wantaudio');
 
 if (ischbwantaudio != checked){
-  isaudio.pause();
+  isaudio.paused();
 }
 
 //
