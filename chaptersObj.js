@@ -238,9 +238,28 @@ function goToChapter(chapterName) {
 
 }
 
+//5.1 etape 1
+
+function reset() {
+  bagTaken = false;
+  goToChapter("chapter0");
+  localStorage.clear();
+}
+
+
+
+
+
+
+
+
+
+
+
+
 let bagTaken = false;
 localStorage.setItem("bagTaken", bagTaken);
-//
+
 function isbagTaken() {
   bagTaken = true;
   goToChapter("chapter4");
