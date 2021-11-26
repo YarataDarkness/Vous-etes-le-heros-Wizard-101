@@ -264,9 +264,7 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
-if (ischbwantaudio != checked){
-  isaudio.paused();
-}
+
 
 //
 let bagTaken = false;
