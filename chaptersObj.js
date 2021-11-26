@@ -238,6 +238,10 @@ function goToChapter(chapterName) {
 
 }
 
+//5.2 etape 2
+
+const isbuttonreset = document.querySelector('.reset')
+
 //5.1 etape 1
 
 function reset() {
@@ -246,13 +250,11 @@ function reset() {
   localStorage.clear();
 }
 
+//5.2 etape 2
 
-
-
-
-
-
-
+isbuttonreset.addEventListener('click', function(){
+  reset()
+})
 
 
 
