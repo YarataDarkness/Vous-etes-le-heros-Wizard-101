@@ -262,7 +262,7 @@ isbuttonreset.addEventListener('click', function(){
 
 let wantaudio = true;
 
-
+const ischbwantaudio = document.querySelector('.wantaudio');
 
 //
 let bagTaken = false;
