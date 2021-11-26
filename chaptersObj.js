@@ -264,9 +264,13 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
-if (wantaudio = true){
+if (wantaudio == true){
   isaudio.play();
+} else if (wantaudio == false){
+  isaudio.paused();
 }
+
+
 
 //
 let bagTaken = false;
