@@ -264,7 +264,9 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
-
+if (wantaudio = true){
+  isaudio.play();
+}
 
 //
 let bagTaken = false;
