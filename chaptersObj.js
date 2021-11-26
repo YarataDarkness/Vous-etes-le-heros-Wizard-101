@@ -270,6 +270,7 @@ ischbwantaudio.addEventListener('change', function(){
   } else if (ischbwantaudio != checked){
     wantaudio = false
   }
+  console.log(ischbwantaudio)
 })
 
 
