@@ -264,6 +264,10 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
+if (ischbwantaudio != checked){
+  isaudio.pause();
+}
+
 //
 let bagTaken = false;
 localStorage.setItem("bagTaken", bagTaken);
