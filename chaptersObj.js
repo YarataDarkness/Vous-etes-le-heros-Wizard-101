@@ -260,9 +260,11 @@ isbuttonreset.addEventListener('click', function(){
 
 //5.2 etape 3
 
+let wantaudio = true;
 
 
 
+//
 let bagTaken = false;
 localStorage.setItem("bagTaken", bagTaken);
 
