@@ -256,6 +256,10 @@ isbuttonreset.addEventListener('click', function(){
   reset()
 })
 
+////////////
+
+//5.2 etape 3
+
 
 
 
