@@ -80,7 +80,7 @@ button {
 
   position: absolute;
   transform-origin: 50% 50%;
-  transform: translateX(350%) translateY(-150%);
+  transform: translateY(-20%);
   transition-duration: 0.2s;
   transform:translateY(-40%);
 }
