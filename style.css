@@ -75,7 +75,7 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
 
-  transform: translateX(350%) translateY(-200%);
+  transform:translateY(-200%);
 }
 
 .chapter2 button:hover{
