@@ -75,7 +75,6 @@ button {
 /*chapitre1 style*/
 .chapter1 button{
   font-family: fantasy;
-  background-color: #c7ffaf;
 
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
@@ -86,7 +85,7 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
 
-  transform: translateY(30%);
+  transform: translateY(-30%);
 }
 
 .chapter2 button:hover{
