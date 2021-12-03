@@ -73,17 +73,17 @@ button {
 
 
 /*chapitre1 style*/
-.chapter1 button:hover{
+.chapter1 button{
   font-family: fantasy;
   background-color: #c7ffaf;
+
 }
 
-
-
-
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+
+  transform: scaleZ(30%);
 }
 
 .chapter2 button:hover{
