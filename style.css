@@ -86,6 +86,13 @@ button {
   transform: translateY(-30%);
 }
 
+/*chapitre2 style*/
+
+.chapter2 .game{
+  background-image: "galaxymoving.gif";
+}
+
+
 .chapter2 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
