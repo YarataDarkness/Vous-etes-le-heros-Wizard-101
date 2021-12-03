@@ -123,7 +123,24 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
 }
+
+/* pour chapitre 103*/
+.chapter103 button{
+  background-color: #ff0000;
+}
+
 .chapter103 button:hover{
   font-family: fantasy;
-  background-color: #c7ffaf;
+  background-color: #acfcff;
 }
+
+.chapter103 body{
+  background-color: rgb(0, 0, 0);
+}
+
+.chapter103 .game{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(190,0,0,1) 29%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
+}
+
+
