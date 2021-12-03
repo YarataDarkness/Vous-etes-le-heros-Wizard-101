@@ -71,6 +71,23 @@ button {
 /* etape 2 de 5.2 css avec les classe baser sur les chapitre*/
 
 
+
+/*chapitre1 style*/
+.chapter1 button:hover{
+  font-family: fantasy;
+  background-color: #c7ffaf;
+
+
+  position: absolute;
+  transform-origin: 50% 50%;
+  transform: translateX(350%) translateY(-150%);
+  transition-duration: 0.2s;
+  transform:translateY(-40%);
+}
+
+
+
+
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
