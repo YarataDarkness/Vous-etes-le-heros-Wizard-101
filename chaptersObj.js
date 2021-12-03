@@ -179,6 +179,7 @@ const chaptersObj = {
   chapter102: {
     subtitle: "Of course?",
     text: "Really? We're going for this? Fine...Have fun pretending you're honest",
+    //-need image or video here
     options: [
       {
         text: "Restart?",
