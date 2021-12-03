@@ -238,9 +238,6 @@ function goToChapter(chapterName) {
 
   isaudio.play();
 
-  //etape 1 5.2
-  isbody.classList.add(iscurrentchapter);
-
 }
 
 //5.2 etape 2
@@ -340,6 +337,11 @@ if(iscurrentchapter != undefined){
   localStorage.clear("chapitre");
   localStorage.clear("bagTaken");
 };
+
+
+//etape 1 5.2
+isbody.classList.add(iscurrentchapter);
+
 
 //code pour letape 3 4.2
 const iscurrentobject = localStorage.getItem("bagTaken");
