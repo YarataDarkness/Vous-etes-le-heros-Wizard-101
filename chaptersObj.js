@@ -241,8 +241,6 @@ function goToChapter(chapterName) {
   //etape 1 5.2
   isbody.classList.add(chapitre);
 
-  console.log(isbody)
-
 }
 
 //5.2 etape 2
