@@ -73,4 +73,5 @@ button {
 
 .chapter7 button:hover{
   background-image: "sparkle.gif";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
