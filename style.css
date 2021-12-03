@@ -80,7 +80,7 @@ button {
 
   position: absolute;
 
-  transform: translateY(-20%);
+  transform: translateZ(-20%);
   transition-duration: 0.2s;
 }
 
@@ -91,7 +91,7 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
 
-  transform:translateY(-40%);
+  transform:translateZ(-40%);
 }
 
 .chapter2 button:hover{
