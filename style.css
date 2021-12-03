@@ -77,13 +77,14 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
 
+  transform: translateZ(10%);
 }
 
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 
-  transform: scaleZ(30%);
+  transform: translateZ(30%);
 }
 
 .chapter2 button:hover{
