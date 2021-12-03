@@ -205,6 +205,8 @@ const chaptersObj = {
 //code pour letape 4 du 4.1
 let isaudio = new Audio("assets/swoosh.wav");
 
+const isbody = document.querySelector('body');
+
 
 function goToChapter(chapterName) {
 
@@ -235,6 +237,10 @@ function goToChapter(chapterName) {
   ShowOptions.innerHTML = buttonsCode;
 
   isaudio.play();
+
+  //etape 1 5.2
+  isbody.classList.add(chapitre);
+
 
 }
 
