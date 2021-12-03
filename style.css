@@ -76,12 +76,6 @@ button {
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
-
-
-  position: absolute;
-
-  transform: translateZ(-20%);
-  transition-duration: 0.2s;
 }
 
 
@@ -90,8 +84,6 @@ button {
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
-
-  transform:translateZ(-40%);
 }
 
 .chapter2 button:hover{
