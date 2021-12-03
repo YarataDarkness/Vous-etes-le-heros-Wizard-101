@@ -241,7 +241,7 @@ function goToChapter(chapterName) {
 
 }
 
-//5.2 etape 2
+//5.1 etape 2
 
 const isbuttonreset = document.querySelector('.reset')
 
