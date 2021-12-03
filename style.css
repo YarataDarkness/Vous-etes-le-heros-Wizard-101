@@ -71,7 +71,48 @@ button {
 /* etape 2 de 5.2 css avec les classe baser sur les chapitre*/
 
 
+.chapter1 button:hover{
+  font-family: fantasy;
+}
+
+.chapter2 button:hover{
+  font-family: fantasy;
+}
+
+.chapter3 button:hover{
+  font-family: fantasy;
+}
+
+.chapter4 button:hover{
+  font-family: fantasy;
+}
+
+.chapter5 button:hover{
+  font-family: fantasy;
+}
+
+.chapter6 button:hover{
+  font-family: fantasy;
+}
+
 .chapter7 button:hover{
   background-image: "sparkle.gif";
+  font-family: fantasy;
+}
+
+.chapter8 button:hover{
+  font-family: fantasy;
+}
+
+.chapter9 button:hover{
+  font-family: fantasy;
+}
+.chapter101 button:hover{
+  font-family: fantasy;
+}
+.chapter102 button:hover{
+  font-family: fantasy;
+}
+.chapter103 button:hover{
   font-family: fantasy;
 }
