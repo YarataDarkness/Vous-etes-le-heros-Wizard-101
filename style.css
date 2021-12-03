@@ -79,14 +79,14 @@ button {
 
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateZ(10%);
+  transform: translateY(10%);
 }
 
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 
-  transform: translateZ(30%);
+  transform: translateY(30%);
 }
 
 .chapter2 button:hover{
