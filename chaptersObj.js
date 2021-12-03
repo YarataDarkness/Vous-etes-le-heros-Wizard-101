@@ -239,7 +239,7 @@ function goToChapter(chapterName) {
   isaudio.play();
 
   //etape 1 5.2
-  isbody.classList.add(chapitre);
+  isbody.classList.add(iscurrentchapter);
 
 }
 
