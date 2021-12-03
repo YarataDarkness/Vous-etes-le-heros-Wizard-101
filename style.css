@@ -74,8 +74,6 @@ button {
 
 /*chapitre1 style*/
 .chapter1 button{
-  font-family: fantasy;
-
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
   transform: translateY(10%);
