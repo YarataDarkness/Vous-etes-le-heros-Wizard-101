@@ -70,3 +70,7 @@ button {
 
 /* etape 2 de 5.2 css avec les classe baser sur les chapitre*/
 
+
+.chapter7 button:hover{
+  background-image: "sparkle.gif";
+}
