@@ -155,7 +155,7 @@ const chaptersObj = {
       },
       {
         text: "Hug",
-        action: "",
+        action: 'goToChapter("chapter102")',
       },
       {
         text: "kill",
