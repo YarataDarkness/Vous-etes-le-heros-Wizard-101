@@ -253,7 +253,7 @@ function reset() {
   localStorage.clear();
 }
 
-//5.2 etape 2
+//5.1 etape 2
 
 isbuttonreset.addEventListener('click', function(){
   reset()
@@ -261,7 +261,7 @@ isbuttonreset.addEventListener('click', function(){
 
 ////////////
 
-//5.2 etape 3
+//5.1 etape 3
 
 let wantaudio = true;
 
