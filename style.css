@@ -99,6 +99,7 @@ button {
 .chapter2 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre3 style*/
@@ -111,6 +112,7 @@ button {
 .chapter3 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre4 style*/
@@ -129,6 +131,7 @@ button {
 .chapter4 button:hover{
   font-family: fantasy;
   background-color: #acfcff;
+  transform: translateY(-30%);
 }
 
 
@@ -142,6 +145,7 @@ button {
 .chapter5 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre6 style*/
@@ -154,46 +158,86 @@ button {
 .chapter6 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre7 style*/
+.chapter7 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter7 button:hover{
   background-image: "sparkle.gif";
   font-family: fantasy;
+  transform: translateY(-30%);
 }
 
 /*chapitre8 style*/
+.chapter8 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter8 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre9 style*/
+.chapter9 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter9 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre101 style*/
+.chapter101 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter101 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*chapitre102 style*/
+.chapter102 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter102 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+  transform: translateY(-30%);
 }
 
 /*103*/
 .chapter103 button{
   background-color: #ff0000;
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
 }
 
 .chapter103 button:hover{
   font-family: fantasy;
   background-color: #acfcff;
+  transform: translateY(-30%);
 }
 
 .chapter103 {
