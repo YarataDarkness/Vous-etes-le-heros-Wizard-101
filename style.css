@@ -151,7 +151,7 @@ button {
 }
 
 .chapter103 {
-  background-image: "theyknow.png";
+  background-image: url("theyknow.png");
 }
 
 .game .chapter103{
