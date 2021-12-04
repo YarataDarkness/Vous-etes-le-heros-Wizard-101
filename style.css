@@ -86,6 +86,12 @@ button {
 }
 
 /*chapitre2 style*/
+.chapter2 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter2 .game{
   background-image: url("galaxymoving.gif");
 }
@@ -96,6 +102,12 @@ button {
 }
 
 /*chapitre3 style*/
+.chapter3 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
+
 .chapter3 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
@@ -109,6 +121,9 @@ button {
 .chapter4 button{
   font-family: fantasy;
   background-color: #ff0000;
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
 }
 
 .chapter4 button:hover{
@@ -117,10 +132,23 @@ button {
 }
 
 
+/*chapitre5 style*/
+.chapter5 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
+}
 
 .chapter5 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
+}
+
+/*chapitre6 style*/
+.chapter6 button{
+  transform-origin: 50% 50%;
+  transition-duration: 0.5s;
+  transform: translateY(20%);
 }
 
 .chapter6 button:hover{
@@ -128,30 +156,37 @@ button {
   background-color: #c7ffaf;
 }
 
+/*chapitre7 style*/
 .chapter7 button:hover{
   background-image: "sparkle.gif";
   font-family: fantasy;
 }
 
+/*chapitre8 style*/
 .chapter8 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 }
 
+/*chapitre9 style*/
 .chapter9 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 }
+
+/*chapitre101 style*/
 .chapter101 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 }
+
+/*chapitre102 style*/
 .chapter102 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 }
 
-/* pour chapitre 103*/
+/*103*/
 .chapter103 button{
   background-color: #ff0000;
 }
