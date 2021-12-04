@@ -211,6 +211,9 @@ const isbody = document.querySelector('body');
 
 function goToChapter(chapterName) {
 
+  //addbodychapitre
+  isbody.classList.add(chapitre);
+
   let chapitre = chaptersObj[chapterName];
   //code pour letape 1 du 4.2
   localStorage.setItem("chapitre", chapterName);
@@ -341,7 +344,7 @@ if(iscurrentchapter != undefined){
 
 
 //etape 1 5.2
-isbody.classList.add(chapitre);
+//isbody.classList.add(chapitre);
 
 
 //code pour letape 3 4.2
