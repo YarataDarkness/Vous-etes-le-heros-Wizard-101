@@ -341,7 +341,7 @@ if(iscurrentchapter != undefined){
 
 
 //etape 1 5.2
-isbody.classList.add(iscurrentchapter);
+isbody.classList.add(chapitre);
 
 
 //code pour letape 3 4.2
