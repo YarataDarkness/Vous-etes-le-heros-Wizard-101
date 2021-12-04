@@ -95,7 +95,7 @@ button {
 }
 
 .chapter2 .game{
-  background-image: url("galaxymoving.gif");
+  background-image: url("assets/galaxymoving.gif");
 }
 
 .chapter2 button:hover{
@@ -106,11 +106,11 @@ button {
 
 /*chapitre3 style*/
 .chapter3{
-  background-image: url("takethebag.png");
+  background-image: url("assets/takethebag.png");
 }
 
 .game .chapter3{
-  background-image: url("takethebag.png");
+  background-image: url("assets/takethebag.png");
 }
 
 .chapter3 button{
@@ -254,7 +254,7 @@ button {
 }
 
 .chapter103 {
-  background-image: url("theyknow.png");
+  background-image: url("assets/theyknow.png");
 }
 
 .game .chapter103{
