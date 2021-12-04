@@ -76,18 +76,16 @@ button {
 .chapter1 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(10%);
+  transform: translateY(20%);
 }
 
 .chapter1 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
-
   transform: translateY(-30%);
 }
 
 /*chapitre2 style*/
-
 .chapter2 .game{
   background-image: url("galaxymoving.gif");
 }
@@ -97,15 +95,28 @@ button {
   background-color: #c7ffaf;
 }
 
+/*chapitre3 style*/
 .chapter3 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
 }
 
+/*chapitre4 style*/
+.chapter4{
+  background-image: url("takethebag.png");
+}
+
+.chapter4 button{
+  font-family: fantasy;
+  background-color: #ff0000;
+}
+
 .chapter4 button:hover{
   font-family: fantasy;
-  background-color: #c7ffaf;
+  background-color: #acfcff;
 }
+
+
 
 .chapter5 button:hover{
   font-family: fantasy;
