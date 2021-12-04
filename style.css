@@ -109,6 +109,10 @@ button {
   background-image: url("takethebag.png");
 }
 
+.game .chapter3{
+  background-image: url("takethebag.png");
+}
+
 .chapter3 button{
   background-color: #ff0000;
   transform-origin: 50% 50%;
