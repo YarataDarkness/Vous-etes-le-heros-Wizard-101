@@ -73,6 +73,10 @@ button {
 
 
 /*chapitre1 style*/
+.chapter1 .game{
+  background-color: #000000;
+}
+
 .chapter1 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -127,6 +131,10 @@ button {
 }
 
 /*chapitre4 style*/
+.chapter4 .game{
+  background-color: #000000;
+}
+
 .chapter4 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -142,6 +150,10 @@ button {
 
 
 /*chapitre5 style*/
+.chapter5 .game{
+  background-color: #000000;
+}
+
 .chapter5 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -156,6 +168,10 @@ button {
 }
 
 /*chapitre6 style*/
+.chapter6 .game{
+  background-color: #000000;
+}
+
 .chapter6 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -170,6 +186,10 @@ button {
 }
 
 /*chapitre7 style*/
+.chapter7 .game{
+  background-color: #000000;
+}
+
 .chapter7 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -184,6 +204,10 @@ button {
 }
 
 /*chapitre8 style*/
+.chapter8 .game{
+  background-color: #000000;
+}
+
 .chapter8 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -198,6 +222,10 @@ button {
 }
 
 /*chapitre9 style*/
+.chapter9 .game{
+  background-color: #000000;
+}
+
 .chapter9 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -212,6 +240,10 @@ button {
 }
 
 /*chapitre101 style*/
+.chapter101 .game{
+  background-color: #000000;
+}
+
 .chapter101 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
@@ -226,6 +258,10 @@ button {
 }
 
 /*chapitre102 style*/
+.chapter102 .game{
+  background-color: #000000;
+}
+
 .chapter102 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
