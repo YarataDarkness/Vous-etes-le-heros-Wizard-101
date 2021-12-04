@@ -76,7 +76,7 @@ button {
 .chapter1 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter1 button:hover{
@@ -89,7 +89,7 @@ button {
 .chapter2 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter2 .game{
@@ -106,7 +106,7 @@ button {
 .chapter3 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter3 button:hover{
@@ -125,7 +125,7 @@ button {
   background-color: #ff0000;
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter4 button:hover{
@@ -139,7 +139,7 @@ button {
 .chapter5 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter5 button:hover{
@@ -152,7 +152,7 @@ button {
 .chapter6 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter6 button:hover{
@@ -165,7 +165,7 @@ button {
 .chapter7 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter7 button:hover{
@@ -178,7 +178,7 @@ button {
 .chapter8 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter8 button:hover{
@@ -191,7 +191,7 @@ button {
 .chapter9 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter9 button:hover{
@@ -204,7 +204,7 @@ button {
 .chapter101 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter101 button:hover{
@@ -217,7 +217,7 @@ button {
 .chapter102 button{
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter102 button:hover{
@@ -231,7 +231,7 @@ button {
   background-color: #ff0000;
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateY(20%);
+  transform: translateY(5%);
 }
 
 .chapter103 button:hover{
