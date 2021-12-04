@@ -128,7 +128,6 @@ button {
 
 /*chapitre4 style*/
 .chapter4 button{
-  font-family: fantasy;
   background-color: #5aff15;
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
