@@ -105,8 +105,12 @@ button {
 }
 
 /*chapitre3 style*/
+.chapter3{
+  background-image: url("takethebag.png");
+}
+
 .chapter3 button{
-  background-color: #5aff15;
+  background-color: #ff0000;
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
   transform: translateY(5%);
@@ -114,18 +118,14 @@ button {
 
 .chapter3 button:hover{
   font-family: fantasy;
-  background-color: #c7ffaf;
+  background-color: #acfcff;
   transform: translateY(-30%);
 }
 
 /*chapitre4 style*/
-.chapter4{
-  background-image: url("takethebag.png");
-}
-
 .chapter4 button{
   font-family: fantasy;
-  background-color: #ff0000;
+  background-color: #5aff15;
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
   transform: translateY(5%);
@@ -133,7 +133,7 @@ button {
 
 .chapter4 button:hover{
   font-family: fantasy;
-  background-color: #acfcff;
+  background-color: #c7ffaf;
   transform: translateY(-30%);
 }
 
