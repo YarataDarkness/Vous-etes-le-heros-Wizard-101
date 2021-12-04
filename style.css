@@ -178,7 +178,7 @@ button {
 }
 
 .chapter7 button:hover{
-  background-image: "sparkle.gif";
+  background-image: url("assets/sparkle.gif");
   font-family: fantasy;
   transform: translateY(-30%);
 }
