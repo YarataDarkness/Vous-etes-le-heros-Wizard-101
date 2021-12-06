@@ -165,10 +165,14 @@ button {
 
 .chapter4 .title{
   text-shadow: 2px 2px 5px white;
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
 }
 
 .chapter4 .summary{
   text-shadow: 2px 2px 5px white;
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
 }
 
 .chapter4 button{
