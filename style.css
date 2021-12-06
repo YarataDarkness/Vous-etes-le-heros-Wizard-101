@@ -163,7 +163,11 @@ button {
   background-size: cover;
 }
 
-.chapter4 text{
+.chapter4 .title{
+  text-shadow: 2px 2px white;
+}
+
+.chapter4 .summary{
   text-shadow: 2px 2px white;
 }
 
