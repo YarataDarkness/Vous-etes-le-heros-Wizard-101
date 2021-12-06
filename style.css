@@ -72,6 +72,11 @@ button {
 
 
 /*chapitre0 style*/
+.chapter0{
+  background-color: #69626d;
+  background-image: none;
+}
+
 .chapter0 .game{
   background-color: black;
   background-image: none;
