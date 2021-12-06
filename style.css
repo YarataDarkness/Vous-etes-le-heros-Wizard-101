@@ -159,7 +159,8 @@ button {
 }
 
 .chapter4 .game{
-  background-color: #000000;
+  background-image: url("assets/cakebackground.png");
+  background-size: cover;
 }
 
 .chapter4 button{
