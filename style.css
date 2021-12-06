@@ -190,6 +190,16 @@ button {
   background-color: black;
 }
 
+.chapter5 .title{
+  text-decoration-line: none;
+  text-decoration-style: none;
+}
+
+.chapter5 .summary{
+  text-decoration-line: none;
+  text-decoration-style: none;
+}
+
 .chapter5 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
