@@ -66,7 +66,7 @@ const chaptersObj = {
 
   chapter4: {
     subtitle: "im_stuffed!",
-    text: "Alright! No we can go...outside....and there this...delicious looking cake...with funny looking...nevermind....We sould leave, right?",
+    text: "Alright! No we can go...outside....and there this...delicious looking cake...with funny looking...nevermind....We should leave, right?",
     img: "chapter4.png",
     options: [
       {

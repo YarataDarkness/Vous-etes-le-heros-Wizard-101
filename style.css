@@ -292,12 +292,14 @@ button {
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
   transform: translateY(5%);
+  background-image: none;
 }
 
 .chapter9 button:hover{
   font-family: fantasy;
   background-color: #c7ffaf;
   transform: translateY(-30%);
+  background-image: none;
 }
 
 /*chapitre101 style*/
@@ -316,6 +318,7 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
   transform: translateY(-30%);
+  background-image: none;
 }
 
 /*chapitre102 style*/
@@ -334,6 +337,7 @@ button {
   font-family: fantasy;
   background-color: #c7ffaf;
   transform: translateY(-30%);
+  background-image: none;
 }
 
 /*103*/
@@ -348,6 +352,7 @@ button {
   font-family: fantasy;
   background-color: #acfcff;
   transform: translateY(-30%);
+  background-image: none;
 }
 
 .chapter103 {
