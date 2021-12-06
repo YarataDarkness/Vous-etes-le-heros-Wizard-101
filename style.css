@@ -163,6 +163,10 @@ button {
   background-size: cover;
 }
 
+.chapter4 text{
+  text-shadow: 2px 2px white;
+}
+
 .chapter4 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
