@@ -282,14 +282,11 @@ ischbwantaudio.addEventListener('change', function(){
   console.log(ischbwantaudio)
 })
 
-
 if (wantaudio == true){
   isaudio.play();
 } else if (wantaudio == false){
   isaudio.paused();
 }
-
-
 
 //
 let bagTaken = false;
@@ -329,6 +326,7 @@ function notbagTaken2() {
 function isrestart(){
   goToChapter("chapter0");
   bagTaken = false;
+  isbody.classList.remove('chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'chapter6', 'chapter7', 'chapter8', 'chapter9', 'chapter101', 'chapter102', 'chapter103');
 }
 //it all about the monkey way
  
