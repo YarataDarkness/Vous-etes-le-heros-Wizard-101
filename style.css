@@ -133,6 +133,7 @@ button {
 
 .chapter3 .game{
   background-color: #000000;
+  background-size: cover;
 }
 
 .chapter3 button{
