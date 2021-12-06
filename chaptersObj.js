@@ -273,8 +273,6 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
-
-
 ischbwantaudio.addEventListener('click', function(){
   if (ischbwantaudio == 'checked'){
     wantaudio = true
