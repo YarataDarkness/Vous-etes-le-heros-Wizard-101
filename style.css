@@ -357,6 +357,7 @@ button {
 
 .chapter103 {
   background-image: url("assets/theyknow.png");
+  background-size: none;
 }
 
 .game .chapter103{
