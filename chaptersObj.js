@@ -343,10 +343,8 @@ if(iscurrentchapter != undefined){
   localStorage.clear("bagTaken");
 };
 
-
 //etape 1 5.2
 //isbody.classList.add(chapitre);
-
 
 //code pour letape 3 4.2
 const iscurrentobject = localStorage.getItem("bagTaken");
