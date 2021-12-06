@@ -129,12 +129,10 @@ button {
 /*chapitre3 style*/
 .chapter3{
   background-image: url("assets/takethebag.png");
-  background-size: cover;
 }
 
 .chapter3 .game{
-  background-image: url("assets/takethebag.png");
-  background-size: cover;
+  background-color: #000000;
 }
 
 .chapter3 button{
