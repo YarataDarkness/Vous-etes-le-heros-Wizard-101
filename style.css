@@ -117,7 +117,7 @@ button {
 
 .chapter2 .game{
   background-image: url("assets/galaxymoving.gif");
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
 }
 
 .chapter2 button:hover{
