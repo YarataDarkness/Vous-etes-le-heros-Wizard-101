@@ -176,7 +176,7 @@ button {
 }
 
 .chapter4 button{
-  background-color: #5aff15;
+  background-color: rgb(255, 165, 0);
   transform-origin: 50% 50%;
   transition-duration: 0.5s;
   transform: translateY(5%);
@@ -184,7 +184,7 @@ button {
 
 .chapter4 button:hover{
   font-family: fantasy;
-  background-color: #c7ffaf;
+  background-color: rgb(255, 216, 143);
   transform: translateY(-30%);
 }
 
