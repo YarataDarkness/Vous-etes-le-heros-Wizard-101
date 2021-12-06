@@ -155,6 +155,7 @@ button {
 /*chapitre4 style*/
 .chapter4{
   background-image: url("assets/cakebackground.png");
+  background-size: cover;
 }
 
 .chapter4 .game{
