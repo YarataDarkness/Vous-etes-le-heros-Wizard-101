@@ -273,10 +273,12 @@ let wantaudio = true;
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
+
+
 ischbwantaudio.addEventListener('click', function(){
-  if (ischbwantaudio == checked){
+  if (ischbwantaudio == 'checked'){
     wantaudio = true
-  } else if (ischbwantaudio != checked){
+  } else if (ischbwantaudio != 'checked'){
     wantaudio = false
   }
   console.log(ischbwantaudio)
@@ -287,8 +289,8 @@ if (wantaudio == true){
 } else if (wantaudio == false){
   isaudio.paused();
 }
-
 //
+
 let bagTaken = false;
 localStorage.setItem("bagTaken", bagTaken);
 
