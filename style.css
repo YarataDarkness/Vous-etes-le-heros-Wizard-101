@@ -191,11 +191,13 @@ button {
 }
 
 .chapter5 .title{
+  text-shadow: none;
   text-decoration-line: none;
   text-decoration-style: none;
 }
 
 .chapter5 .summary{
+  text-shadow: none;
   text-decoration-line: none;
   text-decoration-style: none;
 }
