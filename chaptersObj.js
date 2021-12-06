@@ -194,7 +194,7 @@ const chaptersObj = {
   chapter103: {
     subtitle: "Of course!",
     text: "Great job! You've got a medal for your evil deed! Why would you want to be friend with that thing anyway?",
-    video: "video103.mp4",
+    video: "103true.mp4",
     options: [
       {
         text: "Restart?",
