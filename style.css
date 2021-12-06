@@ -153,6 +153,10 @@ button {
 }
 
 /*chapitre4 style*/
+.chapter4{
+  background-color: #000000;
+}
+
 .chapter4 .game{
   background-color: #000000;
 }
