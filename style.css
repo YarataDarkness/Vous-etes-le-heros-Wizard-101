@@ -72,6 +72,10 @@ button {
 
 
 /*chapitre0 style*/
+.chapter0 .game{
+  background-color: #000000;
+}
+
 .chapter0 button{
   background-color: #5aff15;
   transform-origin: 50% 50%;
