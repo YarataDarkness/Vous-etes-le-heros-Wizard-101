@@ -189,6 +189,7 @@ button {
 /*chapitre5 style*/
 .chapter5 .game{
   background-color: black;
+  background-image: none;
 }
 
 .chapter5 .title{
