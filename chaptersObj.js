@@ -274,7 +274,7 @@ const iswantaudio = document.querySelector('.wantaudio')
 
 const ischbwantaudio = document.querySelector('.wantaudio');
 
-ischbwantaudio.addEventListener('click', function(){
+ischbwantaudio.addEventListener('change', function(){
   if (ischbwantaudio == 'checked'){
     wantaudio = true
   } else if (ischbwantaudio != 'checked'){
