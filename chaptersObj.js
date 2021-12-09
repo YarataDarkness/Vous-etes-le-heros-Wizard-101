@@ -270,14 +270,16 @@ isbuttonreset.addEventListener('click', function(){
 //5.1 etape 3
 let wantaudio = true;
 
+//const ischbwantaudio = document.querySelector('.wantaudio')
+
 const iswantaudio = document.querySelector('.wantaudio')
 
 const input = document.querySelector('input');
 
-ischbwantaudio.addEventListener('change', function(){
-  if (ischbwantaudio.checked){
+iswantaudio.addEventListener('change', function(){
+  if (iswantaudio.checked){
     wantaudio = true
-  } else if (ischbwantaudio != ischbwantaudio.checked){
+  } else if (iswantaudio != iswantaudio.checked){
     wantaudio = false
  }
   console.log(iswantaudio)
