@@ -274,14 +274,14 @@ const iswantaudio = document.querySelector('.wantaudio')
 
 const input = document.querySelector('input');
 
-//ischbwantaudio.addEventListener('change', function(){
- // if (ischbwantaudio == 'checked'){
- //   wantaudio = true
- // } else if (ischbwantaudio != 'checked'){
-//    wantaudio = false
-//  }
- // console.log(iswantaudio)
-//})
+ischbwantaudio.addEventListener('change', function(){
+  if (ischbwantaudio.checked){
+    wantaudio = true
+  } else if (ischbwantaudio != ischbwantaudio.checked){
+    wantaudio = false
+ }
+  console.log(iswantaudio)
+})
 
 if (wantaudio == true){
   isaudio.play();
